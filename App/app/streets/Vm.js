@@ -1,6 +1,5 @@
 Ext.define('App.streets.Vm', {
   extend: 'Ext.app.ViewModel',
-
   alias: 'viewmodel.streets-vm',
 
   data: {

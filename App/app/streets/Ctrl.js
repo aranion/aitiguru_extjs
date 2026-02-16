@@ -66,9 +66,14 @@ Ext.define('App.streets.Ctrl', {
 
         if (wasSave && newRecord) {
           const vm = this.getViewModel(),
-            streetsStore = vm.getStore('streetsStore')
+            streetsStore = vm.getStore('streetsStore'),
+            dataStreets = vm.get('dataStreets')
 
-          streetsStore.add(newRecord)
+          // streetsStore.add(newRecord)
+          dataStreets.push(newRecord)
+          vm.set('dataStreets', dataStreets)
+          vm.notify()
+          streetsStore.reload()
         }
       },
       this
