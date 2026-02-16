@@ -4,6 +4,8 @@ Ext.define('App.streets.View', {
   viewModel: 'streets-vm',
   controller: 'streets-ctrl',
 
+  requires: ['Ext.grid.plugin.RowEditing'],
+
   title: 'Список улиц',
 
   bind: {
