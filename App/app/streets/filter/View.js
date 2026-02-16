@@ -57,6 +57,7 @@ Ext.define('App.streets.filter.View', {
         hidden: '{!isEnableFilter}'
       },
       fieldLabel: 'Население',
+      padding: '0 0 0 1 0',
       defaultType: 'numberfield',
       defaults: {
         minValue: 0,
