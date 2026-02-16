@@ -1,0 +1,15 @@
+{
+  "name": "aitiguru",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "init": "sencha framework add --source C:\\SDC\\ext-7.4.0 --path ext",
+    "start": "cd ./App & sencha app watch --j2ee -port 1841",
+    "build": "cd ./App & sencha app build production"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "",
+  "license": "ISC"
+}

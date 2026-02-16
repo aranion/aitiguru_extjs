@@ -1,0 +1,28 @@
+# SDK
+/ext
+
+# Build
+/build
+
+# (Пере) Генерируемые при запуске файлы
+bootstrap.*
+classic.json*
+modern.json*
+
+
+# Сборки с разными темами в отладке:  build-blue-grey(.json|.jsonp)
+build-*.json*
+
+# Конфигурации сборкии
+.sencha
+
+# Логи ошибок
+*.log
+sencha-error*
+
+# IDE
+/.idea
+.vscode
+
+# Libs
+/node_modules
